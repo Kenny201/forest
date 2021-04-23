@@ -1,0 +1,14 @@
+@include media-breakpoint-up(md) {
+  .visit {
+    .visit-button-next, .visit-button-prev{
+      display: flex;
+      position: relative;
+      top: 0;
+      margin: 0;
+      width: 65px;
+      height: 100%;
+      left:0;
+      right:0;
+    }
+  }
+}

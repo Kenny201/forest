@@ -1,0 +1,14 @@
+@include media-breakpoint-up(md) {
+  .advantages {
+    .advantages-wrap{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .advantages-block{
+      padding: 50px 60px; 
+      width: 49%;
+      border-radius: 30px;
+    }
+  }
+}

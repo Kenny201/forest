@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/subset-AvenirNextCyr-Medium.woff2') format('woff2'),
+        url('fonts/subset-AvenirNextCyr-Medium.woff') format('woff'),
+        url('fonts/subset-AvenirNextCyr-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/subset-AvenirNextCyr-Regular.woff2') format('woff2'),
+        url('fonts/subset-AvenirNextCyr-Regular.woff') format('woff'),
+        url('fonts/subset-AvenirNextCyr-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/subset-AvenirNextCyr-Bold.woff2') format('woff2'),
+        url('fonts/subset-AvenirNextCyr-Bold.woff') format('woff'),
+        url('fonts/subset-AvenirNextCyr-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+	font-family: Avenir;
+}
+h2{
+	font-weight: 800;
+	margin-bottom: 2rem;
+}
+.wrap{
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 1600px;
+	padding: 0 1.781rem;
+}
+@media(min-width: 1200px){
+    h2{
+            font-size: 1.25rem;
+    }
+}
+
+
+@media (max-width: 600px){
+    .wrap {
+        padding: 0 1.5rem;
+    }
+}
+@media (max-width: 480px){
+    .wrap {
+        padding: 0 1rem;
+    }
+}

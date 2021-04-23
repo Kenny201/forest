@@ -1,0 +1,15 @@
+@include media-breakpoint-up(xxl) {
+  .advantages {
+    .advantages-block{
+      .advantages-content{
+        width: 90%;
+      }
+    }
+    .advantages-block:nth-child(2){
+      .advantages-content{
+        width: 75%;
+      }
+    }
+    
+  }
+}

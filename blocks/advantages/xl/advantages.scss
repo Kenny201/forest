@@ -1,0 +1,10 @@
+@include media-breakpoint-up(xl) {
+  .advantages {
+    .advantages-title{
+      font-size: 1.875rem;
+    }
+    .advantages-content{
+      font-size: 1.125rem;
+    }
+  }
+}
